@@ -1,3 +1,9 @@
+//-----------------------------------------------------------------------
+// <copyright file="$safeitemrootname$.cs" company="AnyComp">
+//     Copyright (c) Imre Turi, AnyComp All rights reserved.
+// </copyright>
+//-----------------------------------------------------------------------
+
 namespace $rootnamespace$
 {
     using System;
@@ -6,8 +12,10 @@ namespace $rootnamespace$
     $endif$using System.Text;
     $if$ ($targetframeworkversion$ >= 4.5)using System.Threading.Tasks;
     $endif$
-
-    class $safeitemrootname$
+    /// <summary>
+    /// Description of $safeitemrootname$ class.
+    /// </summary>
+    private class $safeitemrootname$
     {
     }
 }
